@@ -1,10 +1,12 @@
 ## The purpose of the web site
 
-- Selling tickets 
+- Selling tickets.
 - Advertising of the different entertainments and services.
+
 
 ## Content of the web site
 ### Theme
+- Theme park itself is for children but the target audience (the users) of the website will be adults who want to buy tickets, etc. Hence the design can stay conversative and functional, instead of too animated and colorful.
 - Something similar to The Flintstones. Roller coasters and animals match well with that cartoon.
 
 ### Entertainments
