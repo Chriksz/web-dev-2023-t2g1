@@ -4,6 +4,9 @@
 - Advertising of the different entertainments and services.
 
 ## Content of the web site
+### Theme
+- Something similar to The Flintstones. Roller coasters and animals match well with that cartoon.
+
 ### Entertainments
 - Roller coaster
 - Zoo
