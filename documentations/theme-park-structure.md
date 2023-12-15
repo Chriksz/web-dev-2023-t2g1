@@ -21,7 +21,7 @@
 
 - Every page should an unified header (logo, navigation bar) and footer section (useful infos, logo).
 - Its landing page should show basic information (opening hours, etc) and ticketing along some nice eye catching visuals
-- It should have a page, detailing the different entertainments
+- It should have a page, detailing the different entertainments  (list view with pictures and description)
 - It should have a page dedicated to ticket selling (shopping cart)
 
 ## Used Technologies
