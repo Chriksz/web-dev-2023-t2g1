@@ -19,7 +19,7 @@
 
 ## Structure of the web site
 
-- Every page should an unified header (logo, navigation bar) and footer section (useful infos, logo).
+- Every page should have unified header (logo, navigation bar) and footer sections (useful infos, logo).
 - Its landing page should show basic information (opening hours, etc) and ticketing along some nice eye catching visuals
 - It should have a page, detailing the different entertainments  (list view with pictures and description)
 - It should have a page dedicated to ticket selling (shopping cart)
