@@ -1,3 +1,24 @@
-Its landing page should have navigation bar and the content should show basic information (opening hours, etc) and ticketing along some nice eye catching visuals
-It should have a page, detailing with different entertainments
-It should have a page dedicated to ticket selling (shopping cart)
+## The purpose of the web site
+
+- Selling tickets 
+- Advertising of the different entertainments and services.
+
+## Content of the web site
+### Entertainments
+- Roller coaster
+- Zoo
+
+### Type of services
+- Medical team
+- Ticketing service
+- Event organization (e.g. birthday parties)
+- Food and drinks
+
+## Structure of the web site
+
+- Every page should an unified header (logo, navigation bar) and footer section (useful infos, logo).
+- Its landing page should show basic information (opening hours, etc) and ticketing along some nice eye catching visuals
+- It should have a page, detailing the different entertainments
+- It should have a page dedicated to ticket selling (shopping cart)
+
+## Used Technologies
