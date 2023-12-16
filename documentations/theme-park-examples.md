@@ -1,6 +1,6 @@
 
 
-## General analysis of theme park websties
+## General analysis of theme park Websites
 
 - Theme park websites are usually colorful, with lot of pictures.
 - The content typically focuses on selling tickets or other type services, and they advertise their different entertainments.
@@ -8,7 +8,7 @@
 - The most important technological aspect is SEO for these websites.
 - The target audience is the parents/adults not the children.
 
-## Reviews of Specific Theme Park Websties
+## Reviews of Specific Theme Park Websites
 
 ### Review of https://www.dreamworld.com.au/
 
