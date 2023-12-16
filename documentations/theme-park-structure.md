@@ -47,7 +47,7 @@
 
 ### Proposed File and Directory Structure
 - Base includes shared css rules
-- index.html refers to the landing page. Hence there is no HTML directory there.
+- index.html refers to the landing page. Hence there is no HTML directory.
 
 ```
 |--->base
