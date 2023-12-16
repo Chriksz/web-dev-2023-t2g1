@@ -37,6 +37,7 @@
 
 ### Techniques
 
+- Use GitHub for collaboration
 - Use semantic tags
 - CSS and HTML files should be separeted
 - In case of using class or id attributes, use BEM convenction
