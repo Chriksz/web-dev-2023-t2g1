@@ -51,16 +51,20 @@
 - index.html refers to the landing page. Hence there is no HTML directory.
 
 ```
-|--->base
-|       |--->css
-|--->pages
-        |--->landingpage
-        |    |---> css
-        |--->page2
-        |    |---> html
-        |    |---> css
-        |--->page3
-        |    |---> html
-        |    |---> css
-|--->index.html
+pages
+    ├── landing
+    │   ├── styles.css
+    │   └── colors.css
+    ├── ticketing
+    │   ├── styles.css
+    │   ├── colors.css
+    │   └── page.html
+    ├── entertainments
+    │   ├── styles.css
+    │   ├── colors.css
+    │   └── page.html
+    └── base
+        ├── styles.css
+        └── colors.css
+index.html
 ```
