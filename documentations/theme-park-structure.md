@@ -19,7 +19,7 @@
 - Event organization (e.g. birthday parties)
 - Food and drinks
 
-## Structure of the web site
+## Structure of the Website
 
 - Every page should have unified header (logo, navigation bar) and footer sections (useful infos, logo).
 - Its landing page should show basic information (opening hours, etc) and ticketing along some nice eye catching visuals
