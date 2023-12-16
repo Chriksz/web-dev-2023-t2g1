@@ -37,7 +37,7 @@
 
 ### Techniques
 
-- Use GitHub for collaboration
+- Use GitHub for collaboration (https://github.com/Chriksz/web-dev-2023-t2g1/blob/main/documentations/theme-park-structure.md)
 - Use semantic tags
 - CSS and HTML files should be separeted
 - In case of using class or id attributes, use BEM convenction
