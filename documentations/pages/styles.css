@@ -121,6 +121,71 @@ header {
   background-color: #4a086b;
 }
 
+/* Styles for Ticket Options section */
+.ticket-options {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.ticket-heading {
+  margin-bottom: 20px;
+}
+
+.ticket-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 40px;
+}
+
+.ticket-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 45%; /* Two cards per row for larger screens */
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.ticket-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.ticket-details {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.ticket-info h3 {
+  margin-bottom: 15px;
+}
+
+.ticket-details p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.ticket-details .purple-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #6a0dad;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  width: 100px; /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+.ticket-details .purple-button:hover {
+  background-color: #4a086b;
+}
+
 /* Styles for the footer */
 .footer {
   background-color: #6a0dad;
