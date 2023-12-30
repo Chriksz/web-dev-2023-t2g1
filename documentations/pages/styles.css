@@ -204,7 +204,7 @@ header {
 /* Styles for the footer */
 .footer {
   background-color: #6a0dad;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -213,8 +213,9 @@ header {
 
 .footer-section {
   flex: 1;
+  padding-left: 40px;
   margin-right: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-section:last-child {
