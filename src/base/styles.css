@@ -84,7 +84,7 @@ header {
 
 /* Styles for the section */
 .featured-attractions, 
-.info-section {
+.info-section, .rides-section {
   text-align: center;
   margin: 20px auto; 
   padding: 20px;
@@ -96,10 +96,48 @@ header {
 }
 
 /* Styles for attraction items */
-.attraction-items, .info-section__food-offerings__items,  .info-section__shopping__items{
+.attraction-items, .info-section__food-offerings__items,  .info-section__shopping__items, .rides-section__thrill-rides__items{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+/* We are enforcing a maximum height, the thumbnail should not grow infinitely */
+.thumbnail-horizontal-item, .thumbnail-horizontal-item__picture {
+  max-height: 300px;
+}
+/* Should have some space between the tumbnail and the next item */
+.thumbnail-horizontal-item{
+  margin-bottom: 40px;
+}
+/* Row aligment will be used to achive the look in the wire frame */
+.thumbnail-horizontal-item article {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/* The two containers are evenly split */
+.thumbnail-horizontal-item__picture, .thumbnail-horizontal-item__text {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+/* Making sure the img cannot overgrow the container */
+.thumbnail-horizontal-item__picture img, .attraction-item img, .thumbnail-item img  {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* The picture in the container should be centered */
+.thumbnail-horizontal-item__picture  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.thumbnail-horizontal-item__text {
+  display: flex;
+  align-items: center;
+
+  flex-flow: row wrap;
 }
 
 .attraction-item, .thumbnail-item {
@@ -107,9 +145,6 @@ header {
   margin-bottom: 20px;
 }
 
-.attraction-item img, .thumbnail-item img {
-  max-width: 100%;
-}
 
 .attraction-item h3, .thumbnail-item h3 {
   margin-top: 10px;
@@ -236,7 +271,7 @@ header {
 
 
 
-.info-section__headlines {
+.info-section__headlines, .rides-section__headlines, .show-section__headlines {
   text-align: center;
 }
 .info-section__faq li{
