@@ -1,6 +1,6 @@
 ## Krisztian Kavai
 ### Role
-@TODO
+Developer
 ### Contribution
 - Requirement analysis and technology arhictecture decision making
 - Setting up contribution platform
@@ -8,8 +8,14 @@
 - Coding (html, css)
 ## Jean Mario
 ### Role
-@TODO
+Developer
 ### Contribution
 - Requirement analysis and technology arhictecture decision making
 - Wireframing
 - Coding (html, css)
+## Saad Khalid
+Designer
+### Contribution
+- Create logo
+- Procure stock photos
+- Choose typography 
