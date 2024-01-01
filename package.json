@@ -1,0 +1,14 @@
+{
+  "name": "web-dev-2023-t2g1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ejs ./src/pages/home/index.ejs -o ./index.html && ejs ./src/pages/info/info.ejs -o ./info.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^3.1.9"
+  }
+}

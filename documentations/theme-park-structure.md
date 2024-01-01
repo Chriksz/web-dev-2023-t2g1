@@ -48,23 +48,33 @@
 
 ### Proposed File and Directory Structure
 - Base includes shared css rules
-- index.html refers to the landing page. Hence there is no HTML directory.
+- index.html refers to the landing page.
+- the build and the source is separeted
+- the build files are at the root folder
+- source code is in the src dir
+- for templating, use EJS
 
 ```
-pages
-    ├── landing
-    │   ├── styles.css
-    │   └── colors.css
-    ├── ticketing
-    │   ├── styles.css
-    │   ├── colors.css
-    │   └── page.html
-    ├── entertainments
-    │   ├── styles.css
-    │   ├── colors.css
-    │   └── page.html
+src
+    pages
+        ├── landing
+        │   ├── styles.css
+        │   └── colors.css
+        │   └── index.ejs
+        ├── ticketing
+        │   ├── styles.css
+        │   ├── colors.css
+        │   └── page.ejs
+        ├── entertainments
+        │   ├── styles.css
+        │   ├── colors.css
+        │   └── page.ejs
     └── base
+        ├── footer.ejs
+        ├── header.ejs
         ├── styles.css
         └── colors.css
 index.html
+info.html
+tickets.html
 ```

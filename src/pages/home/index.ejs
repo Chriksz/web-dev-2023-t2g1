@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Theme Park</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <!-- Navigation bar -->
-    <nav class="navbar">
-      <div class="logo">
-        <img src="logo.png" alt="Logo">
-      </div>
-      <div class="nav-links">
-        <ul>
-          <li><a href="#">RIDES & ATTRACTIONS</a></li>
-          <li><a href="#">PARK INFORMATION</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  
+
+<%- include('../../base/header'); -%>
   <!-- Banner Image With Text -->
   <div class="banner">
     <div class="banner-content">
-        <img src="img/banner_image.jpg" alt="Banner Image">
+        <img src="assets/banner_image.jpg" alt="Banner Image">
         <h1>FUN IS AWAITING</h1>
     </div>
   </div>
@@ -34,17 +13,17 @@
     <h2>FEATURED ATTRACTIONS</h2>
     <div class="attraction-items">
       <div class="attraction-item">
-        <img src="img/attraction_image_1.jpg" alt="Attraction 1">
+        <img src="assets/attraction_image_1.jpg" alt="Attraction 1">
         <h3>Aquatic Odyssey</h3>
         <p>Dive into an underwater adventure in this massive, futuristic aquarium complex. Visitors explore a series of interconnected domes, each showcasing a different aquatic ecosystem, from vibrant coral reefs to mysterious deep-sea trenches.</p>
       </div>
       <div class="attraction-item">
-        <img src="img/attraction_image_1.jpg" alt="Attraction 2">
+        <img src="assets/attraction_image_1.jpg" alt="Attraction 2">
         <h3>SkySoar</h3>
         <p>An exhilarating aerial adventure that combines ziplining and virtual reality. Visitors are suited up with VR gear, enabling them to "fly" through breathtaking landscapes, experiencing the rush of wind and stunning visuals as they zip along suspended lines.</p>
       </div>
       <div class="attraction-item">
-        <img src="img/attraction_image_1.jpg" alt="Attraction 3">
+        <img src="assets/attraction_image_1.jpg" alt="Attraction 3">
         <h3>TimeWarp Theater</h3>
         <p>A state-of-the-art immersive theater experience that transports audiences through various eras and historical events. Using cutting-edge technology, this multisensory show combines live actors, holographic displays, and special effects to bring history to life.</p>
       </div>
@@ -101,27 +80,7 @@
     </div>
   </section>
   
+<%- include('../../base/footer'); -%>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-section">
-      <h3>Information</h3>
-      <p>Park Hours: Monday-Sunday, 9:00 AM - 7:00 PM </p>
-      <p>Address: 1234 Park Avenue, City, State, ZIP</p> 
-      <p>FAQs: Check out our frequently asked questions to learn more about visiting the park.</p>
-    </div>
-    <div class="footer-section">
-      <h3>Contact</h3>
-      <p>Phone: +123-456-7890
-      <p>Email: info@yourthemepark.com</p>
-      <p>Follow Us: Connect with us on social media: Facebook, Instagram, Twitter</p>
-      <p>Customer Support: For inquiries, feedback, or assistance, please reach out through our social media channels.</p>
-    </div>
-    <div class="footer-section"></div>
-    <div class="footer-section">
-      <img src="logo.png" alt="Footer Logo">
-    </div>
-  </footer>
 
-</body>
-</html>
+
