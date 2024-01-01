@@ -1,3 +1,47 @@
 <%- include('../../base/header'); -%>
-Hello INFO
+<section   class="info-section">
+    <h2 class="info-section__headlines">FOOD & DRINK</h2>
+    <section  class="info-section__food-offerings">
+        <div class="info-section__food-offerings__items">
+            <% [{id: "1", name: "food1", desc: "food1"}, {id: "2", name: "food2", desc: "food2"}, {id: "3", name: "food3", desc: "food3"}].forEach(function(cFood){ %>
+                <%- include('../shared/thumbnail', {data: cFood}); %>
+              <% }); %>
+        </div>
+    
+    </section>
+    <h2 class="info-section__headlines">SHOPPING</h2>
+    <section  class="info-section__shopping">
+        <div class="info-section__shopping__items">
+            <% [{id: "1", name: "shop1", desc: "shop1"}, {id: "2", name: "shop2", desc: "shop2"}, {id: "3", name: "shop3", desc: "shop3"}].forEach(function(elem){ %>
+                <%- include('../shared/thumbnail', {data: elem}); %>
+              <% }); %>
+        </div>
+    
+    </section>
+    <h2 class="info-section__headlines">FAQ</h2>
+    <section  class="info-section__faq">
+        <ul>
+            <li>
+                <h3>Question 1?</h3>
+            </li>
+            <li>
+                <strong>Answer 1</strong>
+            </li>
+            <li>
+                <h3>Question 2?</h3>
+            </li>
+            <li>
+                <strong>Answer 2</strong>
+            </li>
+            <li>
+                <h3>Question 3?</h3>
+            </li>
+            <li>
+                <strong>Answer 3</strong>
+            </li>
+        </ul>
+    </section>
+    <h2 class="info-section__headlines">MAP OF THE PARK</h2>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fscience%2Fworld-map&psig=AOvVaw3t5Xw-J6bUT-BmP6YsAo7H&ust=1704210968861000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKCf_N3GvIMDFQAAAAAdAAAAABAD" alt="Map of the park"/>
+</section>
 <%- include('../../base/footer'); -%>
