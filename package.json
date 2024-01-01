@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ejs ./src/pages/home/index.ejs -o ./index.html && ejs ./src/pages/info/info.ejs -o ./info.html"
+    "build": "ejs ./src/pages/home/index.ejs -o ./index.html && ejs ./src/pages/info/info.ejs -o ./info.html && ejs ./src/pages/rides/rides.ejs -o ./rides.html"
   },
   "author": "",
   "license": "ISC",

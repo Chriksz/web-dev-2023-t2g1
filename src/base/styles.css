@@ -27,7 +27,9 @@ header {
 }
 
 .logo img {
-  max-width: 100px; 
+  display: block;
+  width: auto;
+  height: 80px;
 }
 
 .nav-links ul {
@@ -81,7 +83,8 @@ header {
 }
 
 /* Styles for the section */
-.featured-attractions {
+.featured-attractions, 
+.info-section {
   text-align: center;
   margin: 20px auto; 
   padding: 20px;
@@ -93,22 +96,22 @@ header {
 }
 
 /* Styles for attraction items */
-.attraction-items {
+.attraction-items, .info-section__food-offerings__items,  .info-section__shopping__items{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.attraction-item {
+.attraction-item, .thumbnail-item {
   flex-basis: 30%;
   margin-bottom: 20px;
 }
 
-.attraction-item img {
+.attraction-item img, .thumbnail-item img {
   max-width: 100%;
 }
 
-.attraction-item h3 {
+.attraction-item h3, .thumbnail-item h3 {
   margin-top: 10px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -231,6 +234,11 @@ header {
   font-size: 14px;
 }
 
-.footer-section img {
-  max-width: 100px; 
+
+
+.info-section__headlines {
+  text-align: center;
+}
+.info-section__faq li{
+  list-style-type: none
 }
