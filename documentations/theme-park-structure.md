@@ -56,25 +56,19 @@
 
 ```
 src
-    pages
-        ├── landing
-        │   ├── styles.css
-        │   └── colors.css
-        │   └── index.ejs
-        ├── ticketing
-        │   ├── styles.css
-        │   ├── colors.css
-        │   └── page.ejs
-        ├── entertainments
-        │   ├── styles.css
-        │   ├── colors.css
-        │   └── page.ejs
-    └── base
-        ├── footer.ejs
-        ├── header.ejs
-        ├── styles.css
-        └── colors.css
+├── pages
+│      ├── home
+│      │   └── index.ejs
+│      ├── info
+│      │   └── info.ejs
+│      ├── rides
+│      │   └── rides.ejs
+│      └── shared
+│          └── tickets.ejs
+└── base
+       ├── footer.ejs
+       ├── header.ejs
+       └── styles.css
 index.html
 info.html
-tickets.html
-```
+rides.html
