@@ -1,57 +1,139 @@
 <%- include('../../base/header'); -%>
-<section   class="info-section">
-    <h2 class="info-section__headlines">FOOD & DRINK</h2>
-    <section  class="info-section__food-offerings">
-        <div class="info-section__food-offerings__items">
-            <% [
-            {src: "assets/foods/jalapeno.jpeg", name: "Jalapeno Mashed", desc: "Prepare your taste buds for a culinary adventure as we present our tantalizing Jalapeño Mashed Potatoes, a fiery twist on the classic comfort dish. Immerse yourself in the perfect fusion of creamy potatoes and the bold, zesty kick of jalapeños, creating a side dish that's not just a complement but a flavor-packed experience."}, 
-            {src: "assets/foods/icetea.jpeg", name: "Peach Iced Tea", desc: "Beat the heat and elevate your park experience with our refreshing Peach Iced Tea, a symphony of fruity sweetness and cool rejuvenation. Immerse yourself in the pure essence of summer as you sip on this delightful beverage, crafted to be the perfect companion for your theme park adventure."}, 
-            {src: "assets/foods/mushroom.jpeg", name: "Swiss Mushroom", desc: "Embark on a culinary adventure at our theme park with our delectable Swiss Mushroom Burger – a tantalizing masterpiece crafted for those who crave the perfect blend of savory flavors. Immerse your taste buds in a symphony of succulent beef, perfectly grilled to perfection and topped with a generous layer of Swiss cheese that melts into a creamy embrace."}].forEach(function(cFood){ %>
-                <%- include('../shared/thumbnail', {data: cFood}); %>
-              <% }); %>
+<!-- Nav Links -->
+<div class="nav-links">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="rides.html">RIDES & ATTRACTIONS</a></li>
+      <li><a href="info.html" class="active">PARK INFORMATION</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+<main>
+<!-- Food and Drink Section -->
+<section class="info-section">
+<h2 class="info-section__headlines">FOOD & DRINK</h2>
+<section  class="info-section__food-offerings">
+    <div class="info-section__food-offerings__items"> 
+        <div class="thumbnail-item">
+            <article>
+                <h3>Jalapeno Mashed</h3>
+                <img src="assets/park-info/jalapeno.jpeg" alt="Jalapeno Mashed"> <!-- AI Generated Image by Playground AI with stable diffusion 3.0 -->
+                <p>
+                    Prepare your taste buds for a culinary adventure as we present our tantalizing Jalapeño Mashed Potatoes, a fiery twist on the classic comfort dish. Immerse yourself in the perfect fusion of creamy potatoes and the bold, zesty kick of jalapeños, creating a side dish that&#39;s not just a complement but a flavor-packed experience.
+                </p>
+            </article>
         </div>
-    
-    </section>
-    
-    <section  class="info-section__shopping">
-        <h2 class="info-section__headlines">SHOPPING</h2>
-        <div class="info-section__shopping__items">
-            <% [{src: "assets/shops/candy-shop.png", name: "Candy Shop", desc: "Step into a world of confectionery delights as you enter our Candy Shop - a haven for sugar enthusiasts and a place where the air is filled with the irresistible aroma of sweet treats. Immerse yourself in a colorful wonderland where every corner is adorned with a tempting array of candies, chocolates, and sugary delights."}, 
-            {src: "assets/shops/toy-shop.png", name: "Toy Shop", desc: "Enter a realm of enchantment at our Toy Shop, where imagination knows no bounds and every shelf holds the promise of endless play. Step into a world of whimsy and wonder as you discover a curated collection of toys that inspire creativity, ignite laughter, and bring joy to hearts both young and young at heart."}, 
-            {src: "assets/shops/gift-shop.png", name: "Gift Shop", desc: "Embark on a journey of discovery as you step into our Gift Shop, where every shelf is a treasure trove of delights waiting to be unwrapped. Immerse yourself in a world of charming trinkets, unique souvenirs, and carefully curated gifts that capture the spirit of your theme park adventure."}].forEach(function(elem){ %>
-                <%- include('../shared/thumbnail', {data: elem}); %>
-              <% }); %>
+            
+        <div class="thumbnail-item">
+            <article>
+                <h3>Peach Iced Tea</h3>
+                <img src="assets/park-info/icetea.jpeg" alt="Peach Iced Tea"> <!-- AI Generated Image by Playground AI with stable diffusion 3.0 -->
+                <p>
+                    Beat the heat and elevate your park experience with our refreshing Peach Iced Tea, a symphony of fruity sweetness and cool rejuvenation. Immerse yourself in the pure essence of summer as you sip on this delightful beverage, crafted to be the perfect companion for your theme park adventure.
+                </p>
+            </article>
         </div>
-    
-    </section>
-    
-    <section  class="info-section__faq">
-        <h2 class="info-section__headlines">FAQ</h2>
-        <ul>
-            <li>
-                <h3>Question 1?</h3>
-            </li>
-            <li>
-                <strong>Answer 1</strong>
-            </li>
-            <li>
-                <h3>Question 2?</h3>
-            </li>
-            <li>
-                <strong>Answer 2</strong>
-            </li>
-            <li>
-                <h3>Question 3?</h3>
-            </li>
-            <li>
-                <strong>Answer 3</strong>
-            </li>
-        </ul>
-    </section>
-    <section class="map-section">
-        <h2 class="info-section__headlines">MAP OF THE PARK</h2>
-        <img src="assets/map.png" alt="Map of the park" >
-    </section>
-
+            
+        <div class="thumbnail-item">
+            <article>
+                <h3>
+                    Swiss Mushroom
+                </h3>
+                <img src="assets/park-info/mushroom.jpeg" alt="Swiss Mushroom"> <!-- AI Generated Image by Playground AI with stable diffusion 3.0 -->
+                <p>
+                    Embark on a culinary adventure at our theme park with our delectable Swiss Mushroom Burger - a tantalizing masterpiece crafted for those who crave the perfect blend of savory flavors. Immerse your taste buds in a symphony of succulent beef, perfectly grilled to perfection and topped with a generous layer of Swiss cheese that melts into a creamy embrace.
+                </p>
+            </article>
+        </div>       
+    </div>
 </section>
+<!-- Shopping Section -->
+<section  class="info-section__shopping">
+    <h2 class="info-section__headlines">SHOPPING</h2>
+    <div class="info-section__shopping__items">
+        <div class="thumbnail-item">
+            <article>
+                <h3>Candy Shop</h3>
+                <img src="assets/park-info/candy-shop.jpg" alt="Candy Shop"> <!-- https://unsplash.com/photos/multicolored-lollipops-dnMLdR814aA -->
+                <p>
+                    Step into a world of confectionery delights as you enter our Candy Shop - a haven for sugar enthusiasts and a place where the air is filled with the irresistible aroma of sweet treats. Immerse yourself in a colorful wonderland where every corner is adorned with a tempting array of candies, chocolates, and sugary delights.
+                </p>
+            </article>
+        </div>
+            
+        <div class="thumbnail-item">
+            <article>
+                <h3>Toy Shop</h3>
+                <img src="assets/park-info/toy-shop.jpg" alt="Toy Shop"> <!-- https://unsplash.com/photos/a-woman-walking-past-a-store-front-with-stuffed-animals-2C2OVvZs5fU -->
+                <p>
+                    Enter a realm of enchantment at our Toy Shop, where imagination knows no bounds and every shelf holds the promise of endless play. Step into a world of whimsy and wonder as you discover a curated collection of toys that inspire creativity, ignite laughter, and bring joy to hearts both young and young at heart.
+                </p>
+            </article>
+        </div>
+            
+        <div class="thumbnail-item">
+        <article>
+            <h3>Gift Shop</h3>
+            <img src="assets/park-info/gift-shop.jpg" alt="Gift Shop"> <!-- https://unsplash.com/photos/text-arRmxsOvdfE -->
+            <p>
+                Embark on a journey of discovery as you step into our Gift Shop, where every shelf is a treasure trove of delights waiting to be unwrapped. Immerse yourself in a world of charming trinkets, unique souvenirs, and carefully curated gifts that capture the spirit of your theme park adventure.
+            </p>
+        </article>
+        </div>   
+    </div>
+</section>
+<!-- FAQ Section -->
+<section  class="info-section__faq">
+    <h2 class="info-section__headlines">FAQ</h2>
+    <ul>
+        <li>
+            <h3>1. What are the park's operating hours?</h3>
+        </li>
+        <li>
+            <p>
+                Our theme park operates from 9.00 AM to 7.00 PM. Please check our website's "Hours & Operations" section for any updates or special holiday schedules.
+            </p>
+        </li>
+        <li>
+            <h3>2. Are there any age or height restrictions for rides?</h3>
+        </li>
+        <li>
+            <p>
+                Yes, certain rides have height or age restrictions for safety reasons. These restrictions vary per attraction and are clearly indicated at the entrance of each ride or on our website's Ride Guide. Please review this information before planning your visit.
+            </p>
+        </li>
+        <li>
+            <h3>3. Can I bring outside food or beverages into the park?</h3>
+        </li>
+        <li>
+            <p> 
+                Outside food and beverages are generally not allowed inside the park. However, we offer a variety of dining options to suit different tastes and dietary needs. Exceptions may apply for medical or infant needs; please contact guest services for assistance.
+            </p>
+        </li>
+        <li>
+            <h3>4. Are there discounts available for groups or special events?</h3>
+        </li>
+        <li>
+            <p> 
+                Yes, we offer group discounts for parties of a certain size and various packages for special events such as birthdays or corporate gatherings. Please visit our "Ticket Options" section or contact our team for more information and to make arrangements.
+            </p>
+        </li>
+        <li>
+            <h3>5. What measures are in place for guest safety and comfort?</h3>
+        </li>
+        <li>
+            <p> 
+                Guest safety and comfort are our top priorities. We have trained staff, stringent ride maintenance protocols, first aid stations, and security personnel throughout the park. Additionally, we have implemented measures in line with current health guidelines to ensure a safe and enjoyable experience for all visitors. 
+            </p>
+        </li>
+    </ul>
+</section>
+</section>
+<!-- Map Section -->
+<section class="map-section">
+    <h2 class="info-section__headlines">MAP OF THE PARK</h2>
+    <img src="assets/map.png" alt="Map of the park" >
+</section>
+</main>
 <%- include('../../base/footer'); -%>

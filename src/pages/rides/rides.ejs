@@ -1,39 +1,129 @@
 <%- include('../../base/header'); -%>
-<div   class="rides-section">
-    <section  class="rides-section__thrill-rides">
-        <h2 class="rides-section__headlines">THRILL RIDES</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div class="rides-section__thrill-rides__items">
-            <% [
-            {src: "assets/thrill-rides/great-fall.png", name: "The Great Fall", desc: "Prepare for the ultimate adrenaline rush as you embark on 'The Great Fall,' an awe-inspiring ride that takes the excitement to new heights - quite literally! This towering adventure promises an exhilarating ascent followed by an adrenaline-pumping plunge that will leave you breathless and craving more."}, 
-            {src: "assets/thrill-rides/spinny-monster.png", name: "Spinny Monster", desc: "Dive into a whirlwind of excitement as you take on the Spinny Monster, a thrilling ride that promises to spin you into a world of pure exhilaration! This captivating attraction is designed for those who crave the perfect blend of spins, twirls, and heart-pounding fun."}, 
-            {src: "assets/thrill-rides/speed-of-light.png", name: "Speed of Light", desc: "Get ready to unleash your inner thrill-seeker and buckle up for an adrenaline-fueled ride on our Speed of Light Roller Coaster. As the ultimate roller coaster enthusiast's dream, this heart-pounding attraction is engineered to deliver an electrifying experience that defies gravity and propels you into a world of high-speed excitement."}].forEach(function(elem){ %>
-                <%- include('../shared/thumbnail', {data: elem}); %>
-              <% }); %>
+<!-- Nav Links -->
+<div class="nav-links">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="rides.html" class="active">RIDES & ATTRACTIONS</a></li>
+      <li><a href="info.html">PARK INFORMATION</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+<main>
+<!-- Thrill Rides Section -->
+<div class="rides-section">
+<section  class="rides-section__thrill-rides">
+    <h2 class="rides-section__headlines">THRILL RIDES</h2>
+    <p>
+        Thrill rides are pulse-quickening attractions designed to catapult you into an exhilarating world of loops, drops, and high-speed maneuvers, promising an unforgettable adrenaline-fueled experience that leaves you craving more.
+    </p>
+    <div class="rides-section__thrill-rides__items">     
+        <div class="thumbnail-item">
+            <article>
+                <h3>The Great Fall</h3>
+                <img src="assets/rides/great-fall.png" alt="The Great Fall"> <!-- AI Generated Image by Playground AI with stable diffusion 3.0 -->
+                <p>
+                    Prepare for the ultimate adrenaline rush as you embark on 'The Great Fall,' an awe-inspiring ride that takes the excitement to new heights - quite literally! This towering adventure promises an exhilarating ascent followed by an adrenaline-pumping plunge that will leave you breathless and craving more.
+                </p>
+            </article>
         </div>
-    </section>
-    <section  class="rides-section__thrill-rides">
-        <h2 class="rides-section__headlines">FAMILY RIDES</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div class="rides-section__thrill-rides__items">
-            <% [
-            {src: "assets/family-rides/bumper-car.png", name: "Bumper Cars", desc: "Get ready for a dose of laughter, adrenaline, and friendly collisions at our Bumper Cars Arena! Step into a world where fun takes the driver's seat and let the excitement unfold as you navigate your colorful bumper car through the twists and turns of our specially designed arena."}, 
-            {src: "assets/family-rides/ferris-wheel.png", name: "Ferris Wheel", desc: "Prepare to soar to new heights and witness breathtaking views as you embark on a sky-high adventure aboard our Ferris Wheel. A towering icon of our theme park, the Ferris Wheel promises a panoramic journey that blends thrills with the serenity of a gentle ascent, creating a unique and unforgettable experience."}, 
-            {src: "assets/family-rides/carousel.png", name: "Carousel", desc: "Step into a world of enchantment as our Carousel Ride invites you to embark on a timeless journey filled with joy, music, and whimsical charm. The Carousel, adorned with beautifully handcrafted horses and magical details, stands as a beacon of classic amusement, ready to transport you to a realm of pure delight"}].forEach(function(elem){ %>
-                <%- include('../shared/thumbnail', {data: elem}); %>
-              <% }); %>
+            
+        <div class="thumbnail-item">
+            <article>
+                <h3>Spinny Monster</h3>
+                <img src="assets/rides/spinny-monster.png" alt="Spinny Monster"> <!-- AI Generated Image by Playground AI with stable diffusion 3.0 -->
+                <p>
+                    Dive into a whirlwind of excitement as you take on the Spinny Monster, a thrilling ride that promises to spin you into a world of pure exhilaration! This captivating attraction is designed for those who crave the perfect blend of spins, twirls, and heart-pounding fun.
+                </p>
+            </article>
         </div>
-    </section>
+            
+        <div class="thumbnail-item">
+            <article>
+                <h3>Speed of Light</h3>
+                <img src="assets/rides/speed-of-light.png" alt="Speed of Light"> <!-- Pexels(https://www.pexels.com/) -->
+                <p>
+                    Get ready to unleash your inner thrill-seeker and buckle up for an adrenaline-fueled ride on our Speed of Light Roller Coaster. As the ultimate roller coaster enthusiast&#39;s dream, this heart-pounding attraction is engineered to deliver an electrifying experience that defies gravity and propels you into a world of high-speed excitement.
+                </p>
+            </article>
+        </div>        
+    </div>
+</section>
+<!-- Family Rides Section -->
+<section  class="rides-section__thrill-rides">
+    <h2 class="rides-section__headlines">FAMILY RIDES</h2>
+    <p>
+        Family rides offer delightful adventures designed for all ages, fostering shared moments of joy and laughter through gentle thrills, interactive experiences, and a sprinkle of magic, ensuring cherished memories for the whole family to treasure.
+    </p>
+    <div class="rides-section__thrill-rides__items">   
+        <div class="thumbnail-item">
+            <article>
+                <h3>Bumper Cars</h3>
+                <img src="assets/rides/bumper-car.jpg" alt="Bumper Cars"> <!-- https://unsplash.com/photos/bump-car-rides-DTHKBCJwY-k -->
+                <p>
+                    Get ready for a dose of laughter, adrenaline, and friendly collisions at our Bumper Cars Arena! Step into a world where fun takes the driver&#39;s seat and let the excitement unfold as you navigate your colorful bumper car through the twists and turns of our specially designed arena.
+                </p>
+            </article>
+        </div>
+            
+        <div class="thumbnail-item">
+            <article>
+                <h3>Ferris Wheel</h3>
+                <img src="assets/rides/ferris-wheel.jpg" alt="Ferris Wheel"> <!-- https://unsplash.com/photos/ferris-wheel-aZQl6O07P4c -->
+                <p>
+                    Prepare to soar to new heights and witness breathtaking views as you embark on a sky-high adventure aboard our Ferris Wheel. A towering icon of our theme park, the Ferris Wheel promises a panoramic journey that blends thrills with the serenity of a gentle ascent, creating a unique and unforgettable experience.
+                </p>
+            </article>
+        </div>
+            
+        <div class="thumbnail-item">
+            <article>
+                <h3>Carousel</h3>
+                <img src="assets/rides/carousel.png" alt="Carousel"> <!-- Pexels(https://www.pexels.com/) -->
+                <p>
+                    Step into a world of enchantment as our Carousel Ride invites you to embark on a timeless journey filled with joy, music, and whimsical charm. The Carousel, adorned with beautifully handcrafted horses and magical details, stands as a beacon of classic amusement, ready to transport you to a realm of pure delight
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
 </div>
-<section   class="show-section">
+<!-- Shows Section -->
+<section class="show-section">
     <h2 class="show-section__headlines">SHOWS</h2>
     <div class="show-section__items">
-        <% [
-        {src: "assets/event-picture/new-year-party.png", name: "New Year Party", desc: "Step into a world of enchantment as our theme park transforms into the ultimate New Year's Eve destination. Illuminated by the glow of a thousand lights, join us for a night of pure magic, where the air is charged with anticipation, and every corner of the park is alive with celebration."}, 
-        {src: "2", name: "Name of the show2", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}].forEach(function(elem){ %>
-            <%- include('../shared/thumbnail-horizontal', {data: elem}); %>
-          <% }); %>
+        <div class="thumbnail-horizontal-item">
+            <article>
+                <div class="thumbnail-horizontal-item__picture">
+                    <img src="assets/rides/wild-encounters.jpg" alt="Wild Encounters"> <!-- https://unsplash.com/photos/a-hippopotamus-standing-in-the-water-at-a-zoo-iriZZl63-yI -->
+                </div>
+                <div class="thumbnail-horizontal-item__text">
+                    <div>
+                        <h3>Wild Encounters: A Safari Spectacular</h3>
+                        <p>
+                            Step into the wilderness and witness the wonders of the animal kingdom in this thrilling show. Featuring trained performers alongside magnificent creatures from around the globe, this spectacle showcases the beauty and agility of exotic animals, from majestic lions to agile acrobatic monkeys. Through a combination of stunts, educational segments, and heartwarming interactions, audiences are transported on a safari adventure, fostering appreciation for wildlife conservation and delivering an unforgettable experience that sparks curiosity and awe.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+            
+        <div class="thumbnail-horizontal-item">
+            <article>
+                <div class="thumbnail-horizontal-item__picture">
+                    <img src="assets/rides/galactic-odyssey.jpg" alt="Galactic Odyssey"> <!-- https://unsplash.com/photos/a-scene-from-star-wars-the-force-awake-mWQse1AoUqQ -->
+                </div>
+                <div class="thumbnail-horizontal-item__text">
+                    <div>
+                        <h3>Galactic Odyssey: A Space Adventure</h3>
+                        <p>
+                            Embark on an intergalactic journey aboard a simulated spaceship, where cutting-edge technology meets imagination in a thrilling sci-fi spectacle. This multimedia show combines state-of-the-art visuals, immersive sound effects, and live-action performances to simulate a daring voyage through the cosmos. Encounter alien worlds, brave cosmic challenges, and witness the triumph of teamwork and bravery in the face of the unknown, captivating audiences with an exhilarating space adventure that ignites curiosity about the mysteries of the universe.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>  
     </div>
-
 </section>
+</main>
 <%- include('../../base/footer'); -%>

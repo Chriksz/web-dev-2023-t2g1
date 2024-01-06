@@ -104,6 +104,30 @@ header {
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Code From HTML.am (https://www.html.am/html-codes/marquees/css-slide-in-text.cfm) */
+/* Styles for the container with the slide effect */
+.slide-left {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Apply the slide-left animation to h1 elements */
+.slide-left h1 {
+  animation: slide-left 6s; /* Apply the slide-left animation over 6 seconds */
+}
+
+/* Define the keyframes for the slide-left animation */
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%; 
+  }
+}
+
 /* Styles for the sections */
 .featured-attractions, 
 .info-section, .rides-section {
